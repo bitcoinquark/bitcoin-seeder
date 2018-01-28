@@ -397,10 +397,9 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"dnsseed1.bitcoinquark.org", "dnsseed2.bitcoinquark.org", ""};
-static const string testnet_seeds[] = {"mike-quark.tpddns.cn"
-		                               "testnet-seed1.bitcoinquark.org",
-                                       "testnet-seed2.bitcoinquark.org",
+static const string mainnet_seeds[] = {"dnsseed1.bitcoinquark.cc", "dnsseed2.bitcoinquark.cc", ""};
+static const string testnet_seeds[] = {"testnet-seed1.bitcoinquark.cc",
+                                       "testnet-seed2.bitcoinquark.cc",
                                        ""};
 
 static const string *seeds = mainnet_seeds;
